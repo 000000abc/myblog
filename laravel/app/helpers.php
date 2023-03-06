@@ -53,8 +53,7 @@ function ENV_CONFIG($value = null)
         ];
     }
     return [
-        'port' => '6399',
-        'password' => 'lwi20151627',
+      
     ];//product 端口
 }
 
