@@ -44,9 +44,9 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', ''),
-            'username' => env('DB_USERNAME', ''),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', '1111'),
+            'username' => env('DB_USERNAME', '1111'),
+            'password' => env('DB_PASSWORD', '1111'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -60,8 +60,8 @@ return [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', ''),
-            'username' => env('DB_USERNAME', ''),
+            'database' => env('DB_DATABASE', '111'),
+            'username' => env('DB_USERNAME', '1111'),
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
@@ -114,7 +114,7 @@ return [
 
         'default' => [
             'host' => env('REDIS_HOST', '127.0.0.1'),
-            'password' => env('REDIS_PASSWORD', ''),
+            'password' => env('REDIS_PASSWORD', '111'),
             'port' => ENV_CONFIG()['port'],
             'database' => env('REDIS_DB', 0),
             'parameters'=>[
